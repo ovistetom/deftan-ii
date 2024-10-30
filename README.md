@@ -1,4 +1,4 @@
-# DeFTAN-II
+# DeFTAN-II: Efficient multichannel speech enhancement with subgroup processing
 
 
 [![PWC](https://img.shields.io/badge/arXiv-paper-red)](https://arxiv.org/pdf/2308.15777)
