@@ -2,7 +2,7 @@
 
 
 [![PWC](https://img.shields.io/badge/arXiv-paper-red)](https://arxiv.org/pdf/2308.15777)
-[![PWC](https://img.shields.io/badge/HuggingFace-pre_trained_model-yellow)](https://arxiv.org/pdf/2308.15777)
+[![PWC](https://img.shields.io/badge/HuggingFace-pre_trained_model-yellow)](https://huggingface.co/donghoney0416/DeFTAN-II)
 
 Official implementation of IEEE/ACM Transactions on Audio, Speech, and Language Processing (IEEE/ACM TASLP) 2024 paper **"[DeFTAN-II: Efficient multichannel speech enhancement with subgroup processing](https://arxiv.org/pdf/2308.15777) (accepted)"**.
 
@@ -30,6 +30,9 @@ See `DeFTAN2.py` and adjust the parameters, or change the modules inside to lear
 
 ## Loss
 The model was trained using PCM loss and SI-SDR loss, and PCM loss was uploaded. See `pcm_loss.py` and you can change it if you want.
+
+## Using pre-traind model [![PWC](https://img.shields.io/badge/HuggingFace-pre_trained_model-yellow)](https://huggingface.co/donghoney0416/DeFTAN-II)
+We have uploaded the pre-train model and how to use it to Hugging Pace. Thank you for checking it out and using it.
 
 # Results
 <details>
