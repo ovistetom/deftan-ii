@@ -3,6 +3,7 @@
 
 [![PWC](https://img.shields.io/badge/arXiv-paper-red)](https://arxiv.org/pdf/2308.15777)
 [![PWC](https://img.shields.io/badge/HuggingFace-pre_trained_model-yellow)](https://huggingface.co/donghoney0416/DeFTAN-II)
+[![PWC](https://img.shields.io/badge/Demo-webpage-blue)](https://donghoney0416.github.io/demos-DeFTAN-II/demo-page.html)
 
 Official implementation of IEEE/ACM Transactions on Audio, Speech, and Language Processing (IEEE/ACM TASLP) 2024 paper **"[DeFTAN-II: Efficient multichannel speech enhancement with subgroup processing](https://arxiv.org/pdf/2308.15777) (accepted)"**.
 
@@ -34,11 +35,12 @@ The model was trained using PCM loss and SI-SDR loss, and PCM loss was uploaded.
 ## Using pre-traind model [![PWC](https://img.shields.io/badge/HuggingFace-pre_trained_model-yellow)](https://huggingface.co/donghoney0416/DeFTAN-II)
 We have uploaded the pre-train model and how to use it to Hugging Pace. Thank you for checking it out and using it.
 
-# Results
+# 3. Results and Demos [![PWC](https://img.shields.io/badge/Demo-webpage-blue)](https://donghoney0416.github.io/demos-DeFTAN-II/demo-page.html)
+We have uploaded more audio clips and spectrogram examples to our demo page. We have uploaded the results of five datasets: spatialized wsjcam0 dataset, spatialized DNS challenge dataset, spatialized WSJ0-2mix dataset, CHiME-3 real dataset, and EasyCom dataset. This includes sound source separation, real-world speech enhancement, and more.
 <details>
 <br>
-<summary><strong>Overall architecture</strong> (click to expand) </summary>
-![Results](fig/results.PNG)
+<summary><strong>Overall results</strong> (click to expand) </summary>
+![DeFTAN-II figure](fig/Fig_overall_architecture.png)
 </details>
 <br>
 
