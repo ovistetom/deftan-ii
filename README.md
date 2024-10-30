@@ -25,20 +25,20 @@ pip install -r requirements.txt
 
 ## 2. Details
 ### Dataset
-The dataset was simulated using pyroomacoustics. See `generate_rir/gen_rir.py` for an example of the code to run the simulation, and `generate_rir/pyroom_rir.cfg` for the configuration.
+The dataset was simulated using pyroomacoustics. See `generate_rir/gen_rir.py` for an example of the simulation code, and `generate_rir/pyroom_rir.cfg` for the configuration file.
 
 ### Model
-We released the code so that the model can be trained from scratch, and uploaded a pre-trained model trained on the spatialized dns challenge dataset to Hugging Face. 
-See `DeFTAN2.py` and adjust the parameters, or change the modules inside to learn.
+We released the code so that the model could be trained from scratch, and we uploaded a pre-trained model, trained on the spatialized DNS Challenge dataset, to Hugging Face. 
+See `DeFTAN2.py` to adjust the parameters or change modules for custom training.
 
 ### Loss
-The model was trained using PCM loss and SI-SDR loss, and PCM loss was uploaded. See `pcm_loss.py` and you can change it if you want.
+The model was trained using PCM loss and SI-SDR loss; PCM loss was uploaded as the primary loss. See `pcm_loss.py` for details, and feel free to modify it as needed.
 
 ### Using pre-traind model [![PWC](https://img.shields.io/badge/HuggingFace-pre_trained_model-yellow)](https://huggingface.co/donghoney0416/DeFTAN-II)
-We have uploaded the pre-train model and how to use it to Hugging Pace. Thank you for checking it out and using it.
+We have uploaded the pre-trained model and instructions for use on Hugging Face. Thank you for exploring and using DeFTAN-II.
 
 ## 3. Results and Demos [![PWC](https://img.shields.io/badge/Demo-webpage-blue)](https://donghoney0416.github.io/demos-DeFTAN-II/demo-page.html)
-We have uploaded more audio clips and spectrogram examples to our demo page. We have uploaded the results of five datasets: spatialized wsjcam0 dataset, spatialized DNS challenge dataset, spatialized WSJ0-2mix dataset, CHiME-3 real dataset, and EasyCom dataset. This includes sound source separation, real-world speech enhancement, and more. You can download spectrograms and audio clips directly from `fig` and `audio`, respectively.
+We have uploaded more audio clips and spectrogram examples to our demo page. Results from five datasets are provided: the spatialized WSJCAM0 dataset, the spatialized DNS Challenge dataset, the spatialized WSJ0-2mix dataset, the CHiME-3 real dataset, and the EasyCom dataset. This includes sound source separation, real-world speech enhancement, and more. Spectrograms and audio clips can be downloaded directly from the `fig` and `audio` directories, respectively.
 
 ![result](fig/results.PNG)
 
