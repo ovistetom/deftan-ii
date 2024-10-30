@@ -38,27 +38,9 @@ The model was trained using PCM loss and SI-SDR loss, and PCM loss was uploaded.
 We have uploaded the pre-train model and how to use it to Hugging Pace. Thank you for checking it out and using it.
 
 ## 3. Results and Demos [![PWC](https://img.shields.io/badge/Demo-webpage-blue)](https://donghoney0416.github.io/demos-DeFTAN-II/demo-page.html)
-We have uploaded more audio clips and spectrogram examples to our demo page. We have uploaded the results of five datasets: spatialized wsjcam0 dataset, spatialized DNS challenge dataset, spatialized WSJ0-2mix dataset, CHiME-3 real dataset, and EasyCom dataset. This includes sound source separation, real-world speech enhancement, and more.
-<details>
-<br>
-<summary><strong>Overall results</strong> (click to expand) </summary>
-![DeFTAN-II figure](fig/results.PNG)
-</details>
-<br>
+We have uploaded more audio clips and spectrogram examples to our demo page. We have uploaded the results of five datasets: spatialized wsjcam0 dataset, spatialized DNS challenge dataset, spatialized WSJ0-2mix dataset, CHiME-3 real dataset, and EasyCom dataset. This includes sound source separation, real-world speech enhancement, and more. You can download spectrograms and audio clips directly from `fig` and `audio`, respectively.
 
-<details>
-<br>
-<summary><strong>Example of spatialized WSJCAM0 dataset</strong> (click to expand) </summary>
-![noisy](fig/wsjcam0/noisy/png)
-</details>
-<br>
-
-<details>
-<br>
-<summary><strong>Example of spatialized DNS challenge dataset</strong> (click to expand) </summary>
-![noisy](fig/dns/noisy.png)
-</details>
-<br>
+![result](fig/results.PNG)
 
 ## Citations
 ```
