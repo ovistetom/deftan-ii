@@ -40,7 +40,7 @@ We have uploaded more audio clips and spectrogram examples to our demo page. We 
 <details>
 <br>
 <summary><strong>Overall results</strong> (click to expand) </summary>
-![DeFTAN-II figure](fig/Fig_overall_architecture.png)
+![DeFTAN-II figure](fig/results.PNG)
 </details>
 <br>
 
