@@ -22,14 +22,14 @@ pip install -r requirements.txt
 
 # 2. Details
 ## Dataset
-The dataset was simulated using pyroomacoustics. See 'generate_rir/gen_rir.py' for an example of the code to run the simulation, and 'generate_rir/pyroom_rir.cfg' for the configuration.
+The dataset was simulated using pyroomacoustics. See `generate_rir/gen_rir.py` for an example of the code to run the simulation, and `generate_rir/pyroom_rir.cfg` for the configuration.
 
 ## Model
 We released the code so that the model can be trained from scratch, and uploaded a pre-trained model trained on the spatialized dns challenge dataset to Hugging Face. 
-See 'DeFTAN2.py' and adjust the parameters, or change the modules inside to learn.
+See `DeFTAN2.py` and adjust the parameters, or change the modules inside to learn.
 
 ## Loss
-The model was trained using PCM loss and SI-SDR loss, and PCM loss was uploaded. See 'pcm_loss.py' and you can change it if you want.
+The model was trained using PCM loss and SI-SDR loss, and PCM loss was uploaded. See `pcm_loss.py` and you can change it if you want.
 
 # Results
 <details>
@@ -39,12 +39,14 @@ The model was trained using PCM loss and SI-SDR loss, and PCM loss was uploaded.
 </details>
 <br>
 
+<details>
 <br>
 <summary><strong>Example of spatialized WSJCAM0 dataset</strong> (click to expand) </summary>
 ![noisy](fig/wsjcam0/noisy.png)
 </details>
 <br>
 
+<details>
 <br>
 <summary><strong>Example of spatialized DNS challenge dataset</strong> (click to expand) </summary>
 ![noisy](fig/dns/noisy.png)
