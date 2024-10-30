@@ -7,6 +7,8 @@
 
 Official implementation of IEEE/ACM Transactions on Audio, Speech, and Language Processing (IEEE/ACM TASLP) 2024 paper **"[DeFTAN-II: Efficient multichannel speech enhancement with subgroup processing](https://arxiv.org/pdf/2308.15777) (accepted)"**.
 
+*In this work, we present DeFTAN-II, an efficient multichannel speech enhancement model based on transformer architecture and subgroup processing. Despite the success of transformers in speech enhancement, they face challenges in capturing local relations, reducing the high computational complexity, and lowering memory usage. To address these limitations, we introduce subgroup processing in our model, combining subgroups of locally emphasized features with other subgroups containing original features. The subgroup processing is implemented in several blocks of the proposed network. In the proposed split dense blocks extracting spatial features, a pair of subgroups is sequentially concatenated and processed by convolution layers to effectively reduce the computational complexity and memory usage. For the F- and T-transformers extracting temporal and spectral relations, we introduce crossattention between subgroups to identify relationships between locally emphasized and non-emphasized features. The dual-path feedforward network then aggregates attended features in terms of the gating of local features processed by dilated convolutions. Through extensive comparisons with state-of-the-art multichannel speech enhancement models, we demonstrate that DeFTAN-II with subgroup processing outperforms existing methods at significantly lower computational complexity. Moreover, we evaluate the model’s generalization capability on real-world data without fine-tuning, which further demonstrates its effectiveness in practical scenarios.*
+
 ![DeFTAN-II figure](fig/Fig_overall_architecture.png)
 
 ## 1. Setup
@@ -47,7 +49,7 @@ We have uploaded more audio clips and spectrogram examples to our demo page. We 
 <details>
 <br>
 <summary><strong>Example of spatialized WSJCAM0 dataset</strong> (click to expand) </summary>
-![noisy](fig/wsjcam0/noisy.png)
+![noisy](fig/wsjcam0/noisy/png)
 </details>
 <br>
 
