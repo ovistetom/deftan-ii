@@ -1,7 +1,7 @@
 # DeFTAN-II: Efficient multichannel speech enhancement with subgroup processing
 
 
-[![PWC](https://img.shields.io/badge/IEEE-paper-red)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10738447)
+[![PWC](https://img.shields.io/badge/IEEE_TASLP-paper-red)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10738447)
 [![PWC](https://img.shields.io/badge/HuggingFace-pre_trained_model-yellow)](https://huggingface.co/donghoney0416/DeFTAN-II)
 [![PWC](https://img.shields.io/badge/Demo-webpage-blue)](https://donghoney0416.github.io/demos-DeFTAN-II/demo-page.html)
 
