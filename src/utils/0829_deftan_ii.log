@@ -1,0 +1,34 @@
+*** START TRAINING ***
+
+----------------------------------------------------------------
+Num. Parameters: 174,904 | Num. MACs: 11,341,234,528.
+----------------------------------------------------------------
+Loading checkpoint solver: '/home/ovistetom/Documents/Python_Local/deftan-ii/out/pkls/0829_deftan_ii.pkl'.
+----------------------------------------------------------------
+Train Summary | Epoch 02 | Loss = 70882345.5473632812
+Valid Summary | Epoch 02 | Loss = 6817936.8300781250
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0829_deftan_ii.pkl'.
+----------------------------------------------------------------
+Train Summary | Epoch 03 | Loss = 67679256.9501953125
+Valid Summary | Epoch 03 | Loss = 6677162.9716796875
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0829_deftan_ii.pkl'.
+----------------------------------------------------------------
+Train Summary | Epoch 04 | Loss = 65677782.4560546875
+Valid Summary | Epoch 04 | Loss = 6335386.9301757812
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0829_deftan_ii.pkl'.
+----------------------------------------------------------------
+Train Summary | Epoch 05 | Loss = 64403796.7739257812
+Valid Summary | Epoch 05 | Loss = 6309862.9472656250
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0829_deftan_ii.pkl'.
+----------------------------------------------------------------
+Train Summary | Epoch 06 | Loss = 63233519.1035156250
+Valid Summary | Epoch 06 | Loss = 6161922.9360351562
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0829_deftan_ii.pkl'.
+----------------------------------------------------------------
+
+*** TRAINING INTERRUPTED BY USER ***

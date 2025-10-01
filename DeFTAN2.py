@@ -66,7 +66,8 @@ class DeFTAN2(nn.Module):
         mix_std_ = torch.std(input, dim=(1, 2), keepdim=True)  # [B, 1, 1]
         input = input / mix_std_  # RMS normalization
         # Encoding
-        stft_input = torch.stft(input.view([-1, N]), n_fft=self.win, hop_length=self.hop, window=torch.hann_window(self.win).type(input.type()), return_complex=False)
+        stft_input = torch.stft(input.view([-1, N]), n_fft=self.win, hop_length=self.hop, window=torch.hann_window(self.win).type(input.type()), return_complex=True)
+        stft_input = torch.view_as_real(stft_input)
         _, F, T, _ = stft_input.size()                                              # B*M , F= num freqs, T= num frame, 2= real imag
         xi = stft_input.view([B, M, F, T, 2])                                       # B*M, F, T, 2 -> B, M, F, T, 2
         xi = xi.permute(0, 1, 4, 3, 2).contiguous()                                 # [B, M, 2, T, F]
@@ -327,3 +328,23 @@ class LayerNormalization4DCF(nn.Module):
         )  # [B,1,T,F]
         x_hat = ((x - mu_) / std_) * self.gamma + self.beta
         return x_hat
+
+
+
+if __name__ == "__main__":
+    with torch.no_grad():
+        model = DeFTAN2(
+            n_srcs = 1,
+            n_mics = 4,
+            n_layers = 2,
+            att_dim = 32,
+            hidden_dim = 48,
+            n_head = 4,
+            emb_dim = 32,
+            emb_ks = 1,
+            emb_hs = 1,
+            dropout = 0.1,
+        )
+        x = torch.randn(2, 4, 64000)  # [B, M, F, T]
+        y = model(x)
+        print(y.shape)

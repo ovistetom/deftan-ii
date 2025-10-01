@@ -1,0 +1,60 @@
+training:
+  batch_size: 12
+  num_epochs: 50
+  num_workers: 4
+  grad_max_norm: 0.1
+  continue_from: #/home/ovistetom/Documents/Python_Local/deftan-ii/out/pkls/0829_deftan_ii.pkl
+  sleep_time_minutes: 0
+
+model:
+  model_name: deftan2_endtoend_amsgrad_lr1e-4
+  model_args:
+    n_srcs: 1
+    win: 512
+    n_mics: 4
+    n_layers: 2
+    att_dim: 32 #64
+    hidden_dim: 64 #256
+    n_head: 2 #4
+    emb_dim: 32 #64
+    emb_ks: 2
+    emb_hs: 1
+    dropout: 0.1
+    eps: 1.0e-5
+criterion:
+  waveform_criterion_name: LossL1
+  waveform_criterion_scale: 1.0
+  waveform_criterion_args: 
+    reduction: sum
+  specgram_criterion_name: LossSTFT
+  specgram_criterion_scale: 0.25
+  specgram_criterion_args:
+    reduction: sum
+    win_size: 512
+    hop_size: 256
+    win_func: hamming
+    beta: 0.0
+    norm: 1
+    comp: 1.0
+    center: False
+
+optimizer:
+  optimizer_name: Adam
+  optimizer_args:
+    lr: 0.0001
+    weight_decay: 0
+    amsgrad: True
+
+scheduler:
+  scheduler_name: LambdaLR
+  scheduler_args:
+    mode: min
+    factor: 0.5
+    patience: 4
+    cooldown: 4
+
+dataloader:
+  num_samples_trn: 60000
+  num_samples_val: 6000
+  fixed_ref_mic: 0
+  hard_mode: True

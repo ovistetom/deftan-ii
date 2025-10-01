@@ -1,0 +1,455 @@
+*** START TRAINING ***
+
+--------------------------------------------------------------------------------
+Num. Parameters: 320,038 | Num. MACs: 20,682,752,460.
+--------------------------------------------------------------------------------
+Initializing solver from scratch.
+Train Summary | Epoch 00 | Loss = 149899722.4912109375
+Valid Summary | Epoch 00 | Loss = 6941914.4990234375
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 01 | Loss = 67068219.1113281250
+Valid Summary | Epoch 01 | Loss = 6386362.0620117188
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 02 | Loss = 61151705.8430175781
+Valid Summary | Epoch 02 | Loss = 5990200.8955078125
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 03 | Loss = 58342155.9152832031
+Valid Summary | Epoch 03 | Loss = 5649652.6762695312
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 04 | Loss = 56671192.3662109375
+Valid Summary | Epoch 04 | Loss = 5543067.0991210938
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 05 | Loss = 55445566.8657226562
+Valid Summary | Epoch 05 | Loss = 5461416.2397460938
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 06 | Loss = 54405169.4956054688
+Valid Summary | Epoch 06 | Loss = 5476338.2387695312
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 07 | Loss = 53620185.0217285156
+Valid Summary | Epoch 07 | Loss = 5349895.2768554688
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 08 | Loss = 52922777.6687011719
+Valid Summary | Epoch 08 | Loss = 5180839.4663085938
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 09 | Loss = 52291476.1789550781
+Valid Summary | Epoch 09 | Loss = 5243027.0986328125
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 10 | Loss = 51810473.8171386719
+Valid Summary | Epoch 10 | Loss = 5117864.0947265625
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 11 | Loss = 51281513.7900390625
+Valid Summary | Epoch 11 | Loss = 5009918.1577148438
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 12 | Loss = 50749945.5666503906
+Valid Summary | Epoch 12 | Loss = 5010031.8063964844
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 13 | Loss = 50459079.2353515625
+Valid Summary | Epoch 13 | Loss = 4959340.0505371094
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 14 | Loss = 50063161.8999023438
+Valid Summary | Epoch 14 | Loss = 4876128.9321289062
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 15 | Loss = 49723090.7456054688
+Valid Summary | Epoch 15 | Loss = 5018595.7558593750
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 16 | Loss = 49400700.5991210938
+Valid Summary | Epoch 16 | Loss = 4893047.8041992188
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 17 | Loss = 49198146.9265136719
+Valid Summary | Epoch 17 | Loss = 4904557.2797851562
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 18 | Loss = 48927903.4924316406
+Valid Summary | Epoch 18 | Loss = 4815947.3405761719
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 19 | Loss = 48684690.7924804688
+Valid Summary | Epoch 19 | Loss = 4749850.6213378906
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 20 | Loss = 48487124.0529785156
+Valid Summary | Epoch 20 | Loss = 4757926.4033203125
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 21 | Loss = 48324331.2167968750
+Valid Summary | Epoch 21 | Loss = 4809704.9594726562
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 22 | Loss = 48164241.3469238281
+Valid Summary | Epoch 22 | Loss = 4703706.8093261719
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 23 | Loss = 48078710.1040039062
+Valid Summary | Epoch 23 | Loss = 4684869.2722167969
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 24 | Loss = 47950929.2290039062
+Valid Summary | Epoch 24 | Loss = 4703161.9848632812
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 25 | Loss = 47755545.8525390625
+Valid Summary | Epoch 25 | Loss = 4668193.8496093750
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 26 | Loss = 47604041.5600585938
+Valid Summary | Epoch 26 | Loss = 4737941.9663085938
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 27 | Loss = 47529968.3784179688
+Valid Summary | Epoch 27 | Loss = 4639016.9216308594
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 28 | Loss = 47401936.7929687500
+Valid Summary | Epoch 28 | Loss = 4681241.4748535156
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 29 | Loss = 47311236.9147949219
+Valid Summary | Epoch 29 | Loss = 4658763.1672363281
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 30 | Loss = 47248886.6813964844
+Valid Summary | Epoch 30 | Loss = 4599277.5925292969
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 31 | Loss = 47137380.6569824219
+Valid Summary | Epoch 31 | Loss = 4657298.0705566406
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 32 | Loss = 47008839.2236328125
+Valid Summary | Epoch 32 | Loss = 4567537.1657714844
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 33 | Loss = 46945884.2502441406
+Valid Summary | Epoch 33 | Loss = 4630914.6384277344
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 34 | Loss = 46866887.7561035156
+Valid Summary | Epoch 34 | Loss = 4594518.5327148438
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 35 | Loss = 46811446.8762207031
+Valid Summary | Epoch 35 | Loss = 4624676.4323730469
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 36 | Loss = 46723960.8833007812
+Valid Summary | Epoch 36 | Loss = 4567329.5214843750
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 37 | Loss = 46621624.6323242188
+Valid Summary | Epoch 37 | Loss = 4560704.5434570312
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 38 | Loss = 46583267.6760253906
+Valid Summary | Epoch 38 | Loss = 4544231.9238281250
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 39 | Loss = 46536009.2785644531
+Valid Summary | Epoch 39 | Loss = 4556224.7617187500
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 40 | Loss = 46418289.6840820312
+Valid Summary | Epoch 40 | Loss = 4573908.1501464844
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 41 | Loss = 46381653.1308593750
+Valid Summary | Epoch 41 | Loss = 4504800.4121093750
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 42 | Loss = 46353077.4086914062
+Valid Summary | Epoch 42 | Loss = 4519215.1062011719
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 43 | Loss = 46249048.2966308594
+Valid Summary | Epoch 43 | Loss = 4503999.1325683594
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 44 | Loss = 46171716.3872070312
+Valid Summary | Epoch 44 | Loss = 4519936.8908691406
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 45 | Loss = 46146228.9785156250
+Valid Summary | Epoch 45 | Loss = 4495277.8322753906
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 46 | Loss = 46112519.9724121094
+Valid Summary | Epoch 46 | Loss = 4513988.5830078125
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 47 | Loss = 46062486.5144042969
+Valid Summary | Epoch 47 | Loss = 4513748.2285156250
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 48 | Loss = 46009134.7580566406
+Valid Summary | Epoch 48 | Loss = 4526210.3676757812
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 49 | Loss = 45948930.5385742188
+Valid Summary | Epoch 49 | Loss = 4480058.7604980469
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 50 | Loss = 45903447.7019042969
+Valid Summary | Epoch 50 | Loss = 4476581.9685058594
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 51 | Loss = 45865785.4650878906
+Valid Summary | Epoch 51 | Loss = 4499514.4943847656
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 52 | Loss = 45813909.4575195312
+Valid Summary | Epoch 52 | Loss = 4470472.7905273438
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 53 | Loss = 45763528.5256347656
+Valid Summary | Epoch 53 | Loss = 4474465.9641113281
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 54 | Loss = 45761874.6511230469
+Valid Summary | Epoch 54 | Loss = 4484202.6406250000
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 55 | Loss = 45723186.0327148438
+Valid Summary | Epoch 55 | Loss = 4465389.9177246094
+	Learning rate = 0.001
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 56 | Loss = 45659879.1352539062
+Valid Summary | Epoch 56 | Loss = 4473521.6838378906
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 57 | Loss = 45637244.5856933594
+Valid Summary | Epoch 57 | Loss = 4486404.5644531250
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 58 | Loss = 45600866.0073242188
+Valid Summary | Epoch 58 | Loss = 4483559.1198730469
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 59 | Loss = 45554384.6188964844
+Valid Summary | Epoch 59 | Loss = 4476321.9675292969
+	Learning rate = 0.001
+--------------------------------------------------------------------------------
+Train Summary | Epoch 60 | Loss = 45487424.6584472656
+Valid Summary | Epoch 60 | Loss = 4474170.8627929688
+	Learning rate = 0.0005
+--------------------------------------------------------------------------------
+Train Summary | Epoch 61 | Loss = 43760966.0432128906
+Valid Summary | Epoch 61 | Loss = 4337412.1169433594
+	Learning rate = 0.0005
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 62 | Loss = 43596822.8959960938
+Valid Summary | Epoch 62 | Loss = 4292647.4448242188
+	Learning rate = 0.0005
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 63 | Loss = 43559778.1533203125
+Valid Summary | Epoch 63 | Loss = 4272939.2634277344
+	Learning rate = 0.0005
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 64 | Loss = 43514096.6594238281
+Valid Summary | Epoch 64 | Loss = 4255074.1628417969
+	Learning rate = 0.0005
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 65 | Loss = 43477593.5437011719
+Valid Summary | Epoch 65 | Loss = 4254490.1203613281
+	Learning rate = 0.0005
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 66 | Loss = 43459882.5717773438
+Valid Summary | Epoch 66 | Loss = 4249487.6091308594
+	Learning rate = 0.0005
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 67 | Loss = 43461641.2382812500
+Valid Summary | Epoch 67 | Loss = 4245001.6003417969
+	Learning rate = 0.0005
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 68 | Loss = 43446309.0107421875
+Valid Summary | Epoch 68 | Loss = 4277705.1105957031
+	Learning rate = 0.0005
+--------------------------------------------------------------------------------
+Train Summary | Epoch 69 | Loss = 43411716.3945312500
+Valid Summary | Epoch 69 | Loss = 4240519.0949707031
+	Learning rate = 0.0005
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 70 | Loss = 43392498.3186035156
+Valid Summary | Epoch 70 | Loss = 4260873.4575195312
+	Learning rate = 0.0005
+--------------------------------------------------------------------------------
+Train Summary | Epoch 71 | Loss = 43387134.6674804688
+Valid Summary | Epoch 71 | Loss = 4246151.5214843750
+	Learning rate = 0.0005
+--------------------------------------------------------------------------------
+Train Summary | Epoch 72 | Loss = 43363906.4799804688
+Valid Summary | Epoch 72 | Loss = 4237677.0693359375
+	Learning rate = 0.0005
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 73 | Loss = 43366731.8632812500
+Valid Summary | Epoch 73 | Loss = 4265015.9160156250
+	Learning rate = 0.0005
+--------------------------------------------------------------------------------
+Train Summary | Epoch 74 | Loss = 43345250.0903320312
+Valid Summary | Epoch 74 | Loss = 4242671.8010253906
+	Learning rate = 0.0005
+--------------------------------------------------------------------------------
+Train Summary | Epoch 75 | Loss = 43325980.0371093750
+Valid Summary | Epoch 75 | Loss = 4247238.5742187500
+	Learning rate = 0.0005
+--------------------------------------------------------------------------------
+Train Summary | Epoch 76 | Loss = 43313899.6262207031
+Valid Summary | Epoch 76 | Loss = 4241504.6499023438
+	Learning rate = 0.0005
+--------------------------------------------------------------------------------
+Train Summary | Epoch 77 | Loss = 43309927.1042480469
+Valid Summary | Epoch 77 | Loss = 4238692.5036621094
+	Learning rate = 0.00025
+--------------------------------------------------------------------------------
+Train Summary | Epoch 78 | Loss = 42295855.5742187500
+Valid Summary | Epoch 78 | Loss = 4137648.3625488281
+	Learning rate = 0.00025
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 79 | Loss = 42201280.1752929688
+Valid Summary | Epoch 79 | Loss = 4160531.8330078125
+	Learning rate = 0.00025
+--------------------------------------------------------------------------------
+Train Summary | Epoch 80 | Loss = 42161214.5373535156
+Valid Summary | Epoch 80 | Loss = 4144998.5261230469
+	Learning rate = 0.00025
+--------------------------------------------------------------------------------
+Train Summary | Epoch 81 | Loss = 42140093.2197265625
+Valid Summary | Epoch 81 | Loss = 4127734.5891113281
+	Learning rate = 0.00025
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 82 | Loss = 42117066.7866210938
+Valid Summary | Epoch 82 | Loss = 4143045.8977050781
+	Learning rate = 0.00025
+--------------------------------------------------------------------------------
+Train Summary | Epoch 83 | Loss = 42094137.1469726562
+Valid Summary | Epoch 83 | Loss = 4133483.0178222656
+	Learning rate = 0.00025
+--------------------------------------------------------------------------------
+Train Summary | Epoch 84 | Loss = 42077520.8476562500
+Valid Summary | Epoch 84 | Loss = 4183720.5954589844
+	Learning rate = 0.00025
+--------------------------------------------------------------------------------
+Train Summary | Epoch 85 | Loss = 42061037.5593261719
+Valid Summary | Epoch 85 | Loss = 4117152.6396484375
+	Learning rate = 0.00025
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 86 | Loss = 42050979.5329589844
+Valid Summary | Epoch 86 | Loss = 4125469.5368652344
+	Learning rate = 0.00025
+--------------------------------------------------------------------------------
+Train Summary | Epoch 87 | Loss = 42044395.6486816406
+Valid Summary | Epoch 87 | Loss = 4120529.6450195312
+	Learning rate = 0.00025
+--------------------------------------------------------------------------------
+Train Summary | Epoch 88 | Loss = 42029486.9414062500
+Valid Summary | Epoch 88 | Loss = 4141355.8249511719
+	Learning rate = 0.00025
+--------------------------------------------------------------------------------
+Train Summary | Epoch 89 | Loss = 42026120.3935546875
+Valid Summary | Epoch 89 | Loss = 4124878.2673339844
+	Learning rate = 0.00025
+--------------------------------------------------------------------------------
+Train Summary | Epoch 90 | Loss = 42016417.0375976562
+Valid Summary | Epoch 90 | Loss = 4168007.1069335938
+	Learning rate = 0.000125
+--------------------------------------------------------------------------------
+Train Summary | Epoch 91 | Loss = 41441249.5354003906
+Valid Summary | Epoch 91 | Loss = 4068949.8395996094
+	Learning rate = 0.000125
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 92 | Loss = 41380892.3493652344
+Valid Summary | Epoch 92 | Loss = 4058889.9172363281
+	Learning rate = 0.000125
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 93 | Loss = 41345897.5922851562
+Valid Summary | Epoch 93 | Loss = 4065850.2258300781
+	Learning rate = 0.000125
+--------------------------------------------------------------------------------
+Train Summary | Epoch 94 | Loss = 41332402.3503417969
+Valid Summary | Epoch 94 | Loss = 4060352.7026367188
+	Learning rate = 0.000125
+--------------------------------------------------------------------------------
+Train Summary | Epoch 95 | Loss = 41313667.0903320312
+Valid Summary | Epoch 95 | Loss = 4056223.0861816406
+	Learning rate = 0.000125
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 96 | Loss = 41296694.6750488281
+Valid Summary | Epoch 96 | Loss = 4051874.7358398438
+	Learning rate = 0.000125
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 97 | Loss = 41289810.2836914062
+Valid Summary | Epoch 97 | Loss = 4055607.5954589844
+	Learning rate = 0.000125
+--------------------------------------------------------------------------------
+Train Summary | Epoch 98 | Loss = 41281934.4582519531
+Valid Summary | Epoch 98 | Loss = 4051481.8864746094
+	Learning rate = 0.000125
+Solver for best model saved at 'out/pkls/0625_deftan_ii.pkl'.
+--------------------------------------------------------------------------------
+Train Summary | Epoch 99 | Loss = 41269305.4528808594
+Valid Summary | Epoch 99 | Loss = 4056923.7028808594
+	Learning rate = 0.000125
+--------------------------------------------------------------------------------
+
+*** FINISHED TRAINING ***
